@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f5;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    color: #1b4332;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+header p {
+    color: #666;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.painel {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+}
+
+.painel h2 {
+    color: #1b4332;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+}
+
+.form-grupo {
+    display: flex;
+    gap: 15px;
+}
+
+.form-grupo input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex: 1;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-grupo input:focus {
+    border-color: #1b4332;
+    outline: none;
+}
+
+#camisa {
+    flex: 0.3;
+}
+
+.form-grupo button {
+    padding: 12px 25px;
+    background-color: #1b4332;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.form-grupo button:hover {
+    background-color: #2d6a4f; 
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+.tabela-elenco {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-elenco th, .tabela-elenco td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-elenco th {
+    background-color: #1b4332;
+    color: white;
+    font-weight: 500;
+}
+
+.tabela-elenco tbody tr:hover {
+    background-color: #f8faf9;
+}
+
+td button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+td button:first-child {
+    background-color: #4a5568; 
+}
+td button:first-child:hover {
+    background-color: #2d3748;
+}
+
+td button:last-child {
+    background-color: #c53030;
+}
+td button:last-child:hover {
+    background-color: #9b2c2c;
+}

@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montador de Elenco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Montador de Elenco</h1>
+        <p>Gerencie os jogadores do seu time</p>
+    </header>
+
+    <main class="container">
+        <section class="painel">
+            <h2>Adicionar Jogador</h2>
+            <div class="form-grupo">
+                <input type="text" id="nome" placeholder="Nome do Jogador">
+                <input type="text" id="posicao" placeholder="Posição (Ex: ATA)">
+                <input type="number" id="camisa" placeholder="Nº">
+                <button id="btn-cadastrar">Cadastrar</button>
+            </div>
+        </section>
+
+        <section class="painel">
+            <h2>Jogadores Escalados</h2>
+            <div class="tabela-container">
+                <table class="tabela-elenco">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Posição</th>
+                            <th>Camisa</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela">
+                        <!-- O JS preencherá aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="func.js"></script>
+</body>
+</html>

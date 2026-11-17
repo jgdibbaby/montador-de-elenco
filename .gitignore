@@ -1,0 +1,10 @@
+# Videos e arquivos pesados
+*.mp4
+*.mov
+*.avi
+
+# Editor e sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
