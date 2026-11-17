@@ -1,4 +1,4 @@
-# ⚽ Montador de Elenco
+#Montador de Elenco
 
 Aplicação web full stack desenvolvida para gerenciamento e escalação de elencos esportivos, integrando uma interface interativa em JavaScript a uma API REST em PHP com persistência em MySQL.
 
@@ -6,7 +6,7 @@ Projeto acadêmico desenvolvido durante o curso de Ciência da Computação (PUC
 
 ---
 
-## 🚀 Funcionalidades
+##Funcionalidades
 
 - **Cadastro de Jogadores:** Registro com nome, posição tática (ex: ATA, MEI, ZAG) e número da camisa.
 - **Listagem em Tempo Real:** Consulta e renderização dinâmica dos jogadores cadastrados.
@@ -15,7 +15,7 @@ Projeto acadêmico desenvolvido durante o curso de Ciência da Computação (PUC
 
 ---
 
-## 🛠️ Tecnologias e Conceitos Aplicados
+##Tecnologias e Conceitos Aplicados
 
 ### Backend
 - **PHP Puro:** Implementação de endpoints RESTful estruturados.
@@ -33,7 +33,7 @@ Projeto acadêmico desenvolvido durante o curso de Ciência da Computação (PUC
 
 ---
 
-## 📁 Estrutura do Projeto
+##Estrutura do Projeto
 
 ```text
 montador-de-elenco/
@@ -49,9 +49,9 @@ montador-de-elenco/
 
 ---
 
-## ⚙️ Como Executar Localmente
+##Como Executar Localmente
 
-### Pré-requisitos
+###Pré-requisitos
 - PHP 8.x instalado
 - Servidor MySQL ativo (ex: via XAMPP, WampServer ou serviço local)
 - Navegador web moderno
